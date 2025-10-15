@@ -36,6 +36,7 @@ local Tab2o = MakeTab({Name = "Hop Script"})
 local Tab3o = MakeTab({Name = "bouty Farm"})
 local Tab4o = MakeTab({Name = "cuopbrenrot"})
 local Tab5o = MakeTab({Name = "99day"})
+local Tab6o = MakeTab({Name = "plantsvsbrainrot Farm"})
 
 -- Buttons
 AddButton(Tab1o, {
@@ -259,5 +260,17 @@ AddButton(Tab1o, {
     Name = "Ko nho ten Main",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+})
+AddButton(Tab6o, {
+    Name = "Ko Nho Ten Main",
+    Callback = function()
+loadstring(game:HttpGet("http://luminon.top/loader.lua"))()
+  end
+})
+AddButton(Tab6o, {
+    Name = "Chiyo Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
   end
 })

@@ -255,3 +255,9 @@ getgenv().V = "Kaitundiamond"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/Vector_Hub/0/v2"))()
   end
 })
+AddButton(Tab1o, {
+    Name = "Ko nho ten Main",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+})

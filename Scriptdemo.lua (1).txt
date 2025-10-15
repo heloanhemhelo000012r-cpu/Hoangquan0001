@@ -35,6 +35,7 @@ local Tab1o = MakeTab({Name = "Script Farm"})
 local Tab2o = MakeTab({Name = "Hop Script"})
 local Tab3o = MakeTab({Name = "bouty Farm"})
 local Tab4o = MakeTab({Name = "cuopbrenrot"})
+local Tab5o = MakeTab({Name = "99day"})
 
 -- Buttons
 AddButton(Tab1o, {
@@ -227,4 +228,16 @@ AddButton(Tab4o, {
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
     end
+})
+AddButton(Tab5o, {
+    Name = "H4x Main",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader2.lua", true))()
+   end
+})
+AddButton(Tab5o, {
+    Name = "Fox Name Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+   end
 })

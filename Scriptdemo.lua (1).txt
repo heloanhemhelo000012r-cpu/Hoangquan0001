@@ -34,6 +34,7 @@ MinimizeButton({
 local Tab1o = MakeTab({Name = "Script Farm"})
 local Tab2o = MakeTab({Name = "Hop Script"})
 local Tab3o = MakeTab({Name = "bouty Farm"})
+local Tab4o = MakeTab({Name = "cuopbrenrot"})
 
 -- Buttons
 AddButton(Tab1o, {
@@ -219,5 +220,11 @@ AddButton(Tab3o, {
             }
         }
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ca16cb42816b395e079fa7a114352ba9.lua"))()
+    end
+})
+AddButton(Tab4o, {
+    Name = "Teddy Hub Main",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
     end
 })

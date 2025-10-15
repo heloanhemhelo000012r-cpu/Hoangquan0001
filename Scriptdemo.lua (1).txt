@@ -233,11 +233,25 @@ AddButton(Tab5o, {
     Name = "H4x Main",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader2.lua", true))()
-   end
+    end
 })
 AddButton(Tab5o, {
     Name = "Fox Name Hub",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+loadstring(game:HttpGet("https://raw.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
    end
+})
+AddButton(Tab1o, {
+    Name = "wazure",
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/45e8b569a783c8a8f4504eb41c3b18c4.lua"))()
+   end
+})
+AddButton(Tab5o, {
+    Name = "vector",
+    Callback = function()
+getgenv().V = "Kaitundiamond"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/Vector_Hub/0/v2"))()
+  end
 })

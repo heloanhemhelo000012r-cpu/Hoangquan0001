@@ -223,7 +223,7 @@ AddButton(Tab3o, {
     end
 })
 AddButton(Tab4o, {
-    Name = "Teddy Hub Main",
+    Name = "chill Main",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
     end

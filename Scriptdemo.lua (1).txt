@@ -274,9 +274,25 @@ AddButton(Tab6o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
   end
 })
-AddButton(Tab4o, {
+AddButton(Tab6o, {
     Name = "Zenikaze Hub Main",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithExility/ZenikazeHub/refs/heads/main/ZenikazeV3.1"))()
+  end
+})
+AddButton(Tab1o, {
+    Name = "Sakura Hub Main",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/longdwieh/Saukura-script/refs/heads/main/sakura.lua.txt"))()
+  end
+})
+AddButton(Tab1o, {
+    Name = "Hiru Main",
+    Callback = function()
+getgenv().Settings = {
+    JoinTeam = true,
+    Team = "Marines"-- Pirates or Marines
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/Source.lua"))()
   end
 })

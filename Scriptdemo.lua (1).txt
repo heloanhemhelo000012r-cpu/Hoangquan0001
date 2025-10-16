@@ -296,3 +296,9 @@ getgenv().Settings = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/Source.lua"))()
   end
 })
+AddButton(Tab4o, {
+    Name = "Zenikaze Hub Main",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/FreePrivateServer/refs/heads/main/UniversalFreePrivateServerByJoshzz"))()
+  end
+})

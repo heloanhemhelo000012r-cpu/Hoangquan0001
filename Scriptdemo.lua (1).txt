@@ -54,7 +54,7 @@ AddButton(Tab2o, {
     Name = "Teddy Hub",
     Callback = function()
         repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))(
     end
 })
 
@@ -303,7 +303,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/Free
   end
 })
 AddButton(Tab1o, {
-    Name = "kaitun Hub",
+    Name = "Kaitun",
     Callback = function()
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
     getgenv().SettingFarm ={
@@ -373,5 +373,5 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
         },
     }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/KaitunBloxFruit.lua")
-  end
+   end
 })

@@ -31,7 +31,7 @@ MinimizeButton({
 })
 
 -- Tabs
-local Tab1o = MakeTab({Name = "Script Farm"})
+local Tab1oScriptFarm = MakeTab({Name = "Script Farm"})
 local Tab2o = MakeTab({Name = "Hop Script"})
 local Tab3o = MakeTab({Name = "bouty Farm"})
 local Tab4o = MakeTab({Name = "cuopbrenrot"})

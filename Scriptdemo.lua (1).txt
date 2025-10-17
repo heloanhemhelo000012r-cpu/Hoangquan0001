@@ -22,7 +22,7 @@ local Window = MakeWindow({
 })
 
 MinimizeButton({
-    Image = "http://www.roblox.com/asset/?id=83190276951914",
+    Image = "http://www.roblox.com/asset/?id=83190276951914"
     Size = {60, 60},
     Color = Color3.fromRGB(10, 10, 10),
     Corner = true,
@@ -301,77 +301,4 @@ AddButton(Tab1o, {
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/FreePrivateServer/refs/heads/main/UniversalFreePrivateServerByJoshzz"))()
   end
-})
-AddButton(Tab1o, {
-    Name = "Kaitun",
-    Callback = function()
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-    getgenv().SettingFarm ={
-        ["Reset Teleport"] = {
-            ["Enabled"] = false,
-            ["Delay Reset"] = 3,
-            ["Item Dont Reset"] = {
-                ["Fruit"] = {
-                    ["Enabled"] = true,
-                    ["All Fruit"] = true, 
-                    ["Select Fruit"] = {
-                        ["Enabled"] = false,
-                        ["Fruit"] = {},
-                    },
-                },
-            },
-        },
-        ["White Screen"] = false,
-        ["Lock Fps"] = {
-            ["Enabled"] = true,
-            ["FPS"] = 360,
-        },
-        ["Get Items"] = {
-            ["Saber"] = true,
-            ["Godhuman"] =  true,
-            ["Skull Guitar"] = true,
-            ["Mirror Fractal"] = true,
-            ["Cursed Dual Katana"] = true,
-            ["Upgrade Race V2-V3"] = true,
-            ["Auto Pull Lever"] = true,
-            ["Shark Anchor"] = true, cdk,sg,godhuman
-        },
-        ["Get Rare Items"] = {
-            ["Rengoku"] = false,
-            ["Dragon Trident"] = false, 
-            ["Pole (1st Form)"] = false,
-            ["Gravity Blade"]  = false,
-        },
-        ["Farm Fragments"] = {
-            ["Enabled"]  = false,
-            ["Fragment"] = 50000,
-        },
-        ["Auto Chat"] = {
-            ["Enabled"] = true,
-            ["Text"] = "",
-        },
-        ["Auto Summon Rip Indra"] = true,
-        ["Select Hop"] = {
-            ["Hop Server If Have Player Near"] = false, 
-            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
-            ["Hop Find Dough King Get Mirror Fractal"] = false,
-            ["Hop Find Raids Castle [CDK]"] = true,
-            ["Hop Find Cake Queen [CDK]"] = true,
-            ["Hop Find Soul Reaper [CDK]"] = true,
-            ["Hop Find Darkbeard [SG]"] = true,
-            ["Hop Find Mirage [ Pull Lever ]"] = false,
-        },
-        ["Farm Mastery"] = {
-            ["Melee"] = false,
-            ["Sword"] = false,
-        },
-        ["Buy Haki"] = {
-            ["Enhancement"] = false,
-            ["Skyjump"] = true,
-            ["Flash Step"] = true,
-            ["Observation"] = true,
-        },
-    }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/KaitunBloxFruit.lua")
-   end
 })
